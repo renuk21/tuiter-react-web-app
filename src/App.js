@@ -10,7 +10,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload
         </p>
         <p>
-          Web Development CS5610 : Fall 2022
+          Web Development CS5610 - Fall 2022
         </p>
         <p>
           Edited <code>src/App.js</code> and saved
