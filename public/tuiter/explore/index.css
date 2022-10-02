@@ -75,6 +75,7 @@
 .wd-content {
     border-bottom: solid 1px rgb(47, 51, 54);
     padding-left: 16px;
+    font-family: Arial;
 }
 
 .wd-content h2 {
@@ -85,6 +86,7 @@
 .wd-post {
     display: flex;
     justify-content: space-between;
+    font-family: Arial;
 }
 
 .wd-post h3 {
