@@ -129,3 +129,21 @@
     border-radius: 15px;
     margin: 10px 16px;
 }
+
+.wd-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.wd-icon-img img {
+    width: 60px;
+    height: 60px;
+}
+
+.wd-input {
+    text-indent: 20px;
+}
+
+.wd-search {
+    color:rgb(100,100,100)
+}
