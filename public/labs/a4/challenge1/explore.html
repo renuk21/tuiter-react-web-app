@@ -2,14 +2,14 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Explore Index</title>
-    <link href="../styles.css" rel="stylesheet">
-    <link href="index.css" rel="stylesheet">
-    <link href="../../vendors/bootstrap/css/bootstrap.css" rel="stylesheet"/>
-    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+    <title>Explore Challenge</title>
+    <link href="public/tuiter/styles.css" rel="stylesheet">
+    <link href="explore.css" rel="stylesheet">
+    <link href="../../../vendors/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+    <link href="../../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
 </head>
 
-<body>
+<body class="bg-black text-light">
 <div class="container">
     <div class="row m-2">
         <!--navigation-->
@@ -54,19 +54,20 @@
         </div>
 
         <!--main content-->
-        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-9 col-sm-9 col-9 align-content-xxl-center m-xxl-1
-align-content-xl-center m-xl-auto align-content-lg-center m-lg-1 align-content-md-center m-md-1 align-content-sm-center m-sm-1
-align-content-center m-1">
-            <div class="row mb-2">
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-9 col-sm-9 col-9 align-content-xxl-center m-xxl-0
+align-content-xl-center m-xl-0 align-content-lg-center m-lg-0 align-content-md-center m-md-0 align-content-sm-center m-sm-0
+align-content-center m-0 border-dark border-start border-end mt-xxl-1 mb-xxl-2 mt-xl-1 mb-xl-2 mt-lg-1 mb-lg-2 mt-md-1 mb-md-2 mt-sm-1 mb-sm-2  mt-1 mb-2">
+
+            <div class="row m-0 mb-2">
                 <div class="col-10 position-relative">
                     <i class="fa fa-search wd-search position-absolute p-2 m-1"></i>
-                    <input class="form-control wd-input rounded-pill p-2" type="text" placeholder="  Search Tuiter" aria-label="searchbar">
+                    <input class="form-control wd-input rounded-pill p-2 bg-dark border-dark" type="text" placeholder="  Search Tuiter" aria-label="searchbar">
                 </div>
                 <div class="col-2">
-                    <a href="explore-settings.html"><i class="fa fa-cog fa-2x pt-1 fa-pull-right"></i></a>
+                    <a href="../../../../public/tuiter/explore/explore-settings.html"><i class="fa fa-cog fa-2x pt-1 fa-pull-right"></i></a>
                 </div>
             </div>
-            <ul class="nav nav-tabs mb-2 navbar-expand">
+            <ul class="nav m-0 navbar-expand border-bottom border-dark d-flex justify-content-around">
                 <li class="nav-item">
                     <a class="nav-link active px-md-2" href="#">For You</a>
                 </li>
@@ -84,55 +85,55 @@ align-content-center m-1">
                 </li>
             </ul>
             <main>
-                <div class="position-relative">
-                    <img src="../../images/SpaceX.jpg" class="w-100" alt="SpaceX Starship">
-                    <h1 class="wd-image-description text-white position-absolute bottom-0">SpaceX's Starship</h1>
+                <div class="position-relative border-bottom-1 border-top-1 border-dark">
+                    <img src="../../../images/spaceXcopy.jpg" class="w-100" alt="SpaceX Starship">
+                    <h1 class="wd-image-description text-white position-absolute bottom-0">SpaceX's Starship  <i class="fa fa-rocket text-danger"></i></h1>
                 </div>
 
-                <div class="row border m-0">
+                <div class="row">
                     <div class="col-9">
                         <div class="text-secondary small">Web Development</div>
-                        <span class="text-black fw-bold small">React JS
-                <i class="fa fa-check-circle text-black ps-2"></i></span>
+                        <span class="text-light fw-bold small">React JS
+                <i class="fa fa-check-circle text-light ps-2"></i></span>
                         <span class="text-secondary small"> - 2h</span>
-                        <p class="text-black small fw-bold">React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs</p>
+                        <p class="text-light small fw-bold">React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs</p>
                     </div>
                     <div class="col-3 wd-icon-img">
-                        <img src="../../images/react.png" class="float-end rounded mt-2" alt="react js logo">
+                        <img src="../../../images/react.png" class="float-end rounded mt-2" alt="react js logo">
                     </div>
                 </div>
-                <div class="row border m-0">
+                <div class="row">
                     <div class="col-9">
-              <span class="text-black fw-bold small">JavaScript
-                  <i class="fa fa-check-circle text-black ps-2"></i></span>
+              <span class="text-light fw-bold small">JavaScript
+                  <i class="fa fa-check-circle text-light ps-2"></i></span>
                         <span class="text-secondary small"> - 2h</span>
-                        <p class="text-black small fw-bold m-0">JavaScript is a programming language that can run on browsers as well as desktops</p>
+                        <p class="text-light small fw-bold m-0">JavaScript is a programming language that can run on browsers as well as desktops</p>
                         <div class="text-secondary small pt-0">123K Tuits</div>
                     </div>
                     <div class="col-3 wd-icon-img">
-                        <img src="../../images/js.png" class="float-end rounded mt-2" alt="javascript logo">
+                        <img src="../../../images/js.png" class="float-end rounded mt-2" alt="javascript logo">
                     </div>
                 </div>
-                <div class="row border m-0">
+                <div class="row">
                     <div class="col-9">
                         <div class="text-secondary small">Web Development</div>
-                        <div class="text-black fw-bold small">JQuery</div>
+                        <div class="text-light fw-bold small">JQuery</div>
                         <div class="text-secondary small pt-0">123K Tuits</div>
                     </div>
                     <div class="col-3 wd-icon-img">
-                        <img src="../../images/jquery.png" class="float-end rounded mt-2" alt="jquery logo">
+                        <img src="../../../images/jquery.png" class="float-end rounded mt-2" alt="jquery logo">
                     </div>
                 </div>
-                <div class="row border m-0">
+                <div class="row">
                     <div class="col-9">
                         <div class="text-secondary small">Web Development</div>
-                        <span class="text-black fw-bold small">NodeJS
-                <i class="fa fa-check-circle text-black ps-2"></i></span>
+                        <span class="text-light fw-bold small">NodeJS
+                <i class="fa fa-check-circle text-light ps-2"></i></span>
                         <span class="text-secondary small"> - 2h</span>
                         <div class="text-secondary small pt-0">123K Tuits</div>
                     </div>
                     <div class="col-3 wd-icon-img">
-                        <img src="../../images/nodejs.png" class="float-end rounded mt-2" alt="nodejs logo">
+                        <img src="../../../images/nodejs.png" class="float-end rounded mt-2" alt="nodejs logo">
                     </div>
                 </div>
             </main>
@@ -140,67 +141,67 @@ align-content-center m-1">
 
         <!--side bar-->
         <div class="col-xxl-3 col-xl-4 col-lg-4 d-lg-block d-md-none d-sm-none d-none">
-            <div class="row py-2 border rounded-top  ms-1">
-                <div class="text-black fw-bold small">Who to follow</div>
+            <div class="row py-2 border-dark rounded-top bg-dark ms-1">
+                <div class="text-light fw-bold small">Who to follow</div>
             </div>
-            <div class="row py-2 border border-top-0  ms-1">
+            <div class="row py-2 border-dark border-top-0 bg-dark ms-1">
                 <div class="col-2 wd-icon">
-                    <img src="../../images/Java.jpg" class="rounded-circle" alt="java">
+                    <img src="../../../images/Java.jpg" class="rounded-circle" alt="java">
                 </div>
                 <div class="col-7">
-                    <span class="fw-bold text-black small">Java<i class="fa fa-check-circle text-black ps-2"></i></span>
+                    <span class="fw-bold text-light small">Java<i class="fa fa-check-circle text-light ps-2"></i></span>
                     <div class="text-secondary small">@Java</div>
                 </div>
                 <div class="col-3 mt-1 mt-1">
-                    <button type="button" class="btn btn-primary rounded-pill float-end">Follow</button>
+                    <button type="button" class="btn btn-light rounded-pill float-end">Follow</button>
                 </div>
             </div>
-            <div class="row py-2 border border-top-0  ms-1">
+            <div class="row py-2 border-dark border-top-0 bg-dark ms-1">
                 <div class="col-2 wd-icon">
-                    <img src="../../images/relativity.jpg" class="rounded-circle" alt="Relativity">
+                    <img src="../../../images/relativity.jpg" class="rounded-circle" alt="Relativity">
                 </div>
                 <div class="col-7">
-                    <span class="fw-bold text-black small">Relativity Space<i class="fa fa-check-circle text-black ps-2"></i></span>
+                    <span class="fw-bold text-light small">Relativity Space<i class="fa fa-check-circle text-light ps-2"></i></span>
                     <div class="text-secondary small">@relativityspace</div>
                 </div>
                 <div class="col-3 mt-1">
-                    <button type="button" class="btn btn-primary rounded-pill float-end">Follow</button>
+                    <button type="button" class="btn btn-light rounded-pill float-end">Follow</button>
                 </div>
             </div>
-            <div class="row py-2 border border-top-0  ms-1">
+            <div class="row py-2 border-dark border-top-0 bg-dark ms-1">
                 <div class="col-2 wd-icon">
-                    <img src="../../images/virgin.png" class="rounded-circle" alt="Virgin">
+                    <img src="../../../images/virgin.png" class="rounded-circle" alt="Virgin">
                 </div>
                 <div class="col-7">
-                    <span class="fw-bold text-black small">Virgin Galactic<i class="fa fa-check-circle text-black ps-2"></i></span>
+                    <span class="fw-bold text-light small">Virgin Galactic<i class="fa fa-check-circle text-light ps-2"></i></span>
                     <div class="text-secondary small">@virgingalactic</div>
                 </div>
                 <div class="col-3 mt-1">
-                    <button type="button" class="btn btn-primary rounded-pill float-end">Follow</button>
+                    <button type="button" class="btn btn-light rounded-pill float-end">Follow</button>
                 </div>
             </div>
-            <div class="row py-2 border border-top-0  ms-1">
+            <div class="row py-2 border-dark border-top-0 bg-dark ms-1">
                 <div class="col-2 wd-icon">
-                    <img src="../../images/nasa.jpg" class="rounded-circle" alt="NASA">
+                    <img src="../../../images/nasa.jpg" class="rounded-circle" alt="NASA">
                 </div>
                 <div class="col-7">
-                    <span class="fw-bold text-black small">NASA<i class="fa fa-check-circle text-black ps-2"></i></span>
+                    <span class="fw-bold text-light small">NASA<i class="fa fa-check-circle text-light ps-2"></i></span>
                     <div class="text-secondary small">@NASA</div>
                 </div>
                 <div class="col-3 mt-1">
-                    <button type="button" class="btn btn-primary rounded-pill float-end">Follow</button>
+                    <button type="button" class="btn btn-light rounded-pill float-end">Follow</button>
                 </div>
             </div>
-            <div class="row py-2 border border-top-0  rounded-bottom ms-1">
+            <div class="row py-2 border-dark border-top-0 bg-dark rounded-bottom ms-1">
                 <div class="col-2 wd-icon">
-                    <img src="../../images/tesla.jpg" class ="rounded-circle" alt="Tesla">
+                    <img src="../../../images/tesla.jpg" class ="rounded-circle" alt="Tesla">
                 </div>
                 <div class="col-7">
-                    <span class="fw-bold text-black small">Telsa<i class="fa fa-check-circle text-black ps-2"></i></span>
+                    <span class="fw-bold text-light small">Telsa<i class="fa fa-check-circle text-light ps-2"></i></span>
                     <div class="text-secondary small">@Tesla</div>
                 </div>
                 <div class="col-3 mt-1">
-                    <button type="button" class="btn btn-primary rounded-pill float-end">Follow</button>
+                    <button type="button" class="btn btn-light rounded-pill float-end">Follow</button>
                 </div>
             </div>
         </div>
