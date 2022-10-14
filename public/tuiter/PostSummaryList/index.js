@@ -4,9 +4,9 @@ const PostSummary = () => {
     return (`
             <ul class="list-group">
             ${posts.map(post => {
-        return (PostSummaryItem(post));
-    }).join('')
-    }
+            return (PostSummaryItem(post));
+            }).join('')
+            }
             </ul>
 `);
 }

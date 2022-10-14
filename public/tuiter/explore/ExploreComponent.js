@@ -29,13 +29,15 @@ const ExploreComponent = () => {
                             <a class="nav-link" href="#">Entertainment</a>
                           </li>
                </ul>
+               <!-- image with overlaid text -->
+               <main>
                <div class="position-relative border-bottom-1 border-top-1 border-dark">
                             <img src="../../images/SpaceX.jpg" class="w-100 img-responsive">
                             <h2 class="wd-image-description text-light position-absolute bottom-0">SpaceX's Starship</h2>
                 </div>
-               
-               <!-- image with overlaid text -->
-           ${PostSummaryList()}
+                ${PostSummaryList()}
+               </main>
+              
     `);
 }
 export default ExploreComponent;

@@ -4,7 +4,7 @@ const PostSummaryItem = (posts) => {
         innerHtml= `<a href="#" class="text-secondary text-decoration-none">${posts.topic}</a><br/>`
     }
     return (`
-    <div class="row bg-light">
+    <div class="row border m-0 bg-light">
         <div class="col-9">
         <div class="small">${innerHtml}</div>
             <span class="text-light fw-bold small"><a href="#" class="text-white text-decoration-none">${posts.userName} </a>
