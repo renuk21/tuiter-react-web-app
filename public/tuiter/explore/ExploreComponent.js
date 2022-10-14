@@ -35,7 +35,9 @@ const ExploreComponent = () => {
                             <img src="../../images/SpaceX.jpg" class="w-100 img-responsive">
                             <h2 class="wd-image-description text-light position-absolute bottom-0">SpaceX's Starship</h2>
                 </div>
+                <div class="mt-2">
                 ${PostSummaryList()}
+                </div>
                </main>
               
     `);

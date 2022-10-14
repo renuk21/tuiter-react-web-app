@@ -2,7 +2,7 @@ const PostItem = (posts) => {
     var innerHtmlLink = ''
     if (`${posts.link}`!=''){
         innerHtmlLink= `
-        <li class="list-group-item">
+        <li class="list-group-item wd-bg-black">
         <span class=""> ${posts.desc1}</span><br/>
         <span class="wd-gray">${posts.desc2}</span>
         <br/>
@@ -19,7 +19,7 @@ const PostItem = (posts) => {
         console.log(title)
     }
     return (`
-    <li class="list-group-item">
+    <li class="list-group-item wd-bg-black">
     <div class="row">
             <div class="col-2 col-lg-2"><img src=${posts.userImage} class="wd-dp" /></div>
             <div class="col-10 col-lg-10">
