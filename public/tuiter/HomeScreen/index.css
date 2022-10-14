@@ -384,3 +384,7 @@ body {
 .wd-border-custom {
     border-color: #212529; !important;
 }
+
+.wd-bg-black {
+    background-color: black;
+}
