@@ -1,5 +1,4 @@
 // alert('Hello World!');
-
 console.log('Hello World!');
 console.log('Variables and Constants');
 global1 = 10;
@@ -172,6 +171,7 @@ loggedIn1 = false;
 const greeting2 = `Logged in: ${loggedIn1 ? "Yes" : "No"}`;
 console.log(greeting2)
 
+/* eslint-env jquery */
 const init = () => {
     console.log('Hello world from jQuery');
     /* do the rest of the lab work here */
@@ -271,6 +271,7 @@ const init = () => {
 
 }
 $(init);
+
 
 
 

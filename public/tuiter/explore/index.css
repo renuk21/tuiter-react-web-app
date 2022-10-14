@@ -147,3 +147,7 @@
 .wd-search {
     color:rgb(100,100,100)
 }
+
+.wd-border-custom {
+    border-color: #212529; !important;
+}
