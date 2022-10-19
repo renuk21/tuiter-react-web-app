@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container nav {
+    font-size: 1.2em;
+    font-weight: 650;
+    /* position: fixed; */
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 15px;
+    text-decoration: none;
+}
+
+.container nav .fa-twitter {
+    border: solid lightgrey;
+    border-width: 1px;
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: .5rem 1rem;
+}
+
+.container nav svg {
+    color: white;
+}
+
+.container nav .nav-link {
+    color: black;
+    text-decoration: none;
+    border: solid 1px lightgray;
+}
+
+.container nav a:hover, .wd-bg {
+    background-color: #328ef1;
+    color: white;
+}
+
+.container nav .tweeterBtn {
+    border-radius: 23px;
+    width: -webkit-fill-available;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1185px) {
+    .menu-text {
+        display: none; }
+}
+
+
+.col-lg-2.col-md-2.col-2{
+    margin-top: 15px;
+}
+
+.col-lg-6.col-md-10.col-10{
+    margin-top: 15px;
+}
+
+.wd-follow-img{
+    float: left;
+    margin: 0px;
+    margin-right: 16px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+.wd-follow-handle{
+    color: white;
+    text-decoration:none;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.btn-primary.btn-sm.followBtn{
+    float: right;
+    border-radius: 60px;
+    width: 75px;
+}
+
+.wd-top{
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-top: 0px;
+}
+.wd-search{
+    background-color: white;
+    width: 90%;
+    height: 40px;
+    color: rgb(118, 118, 118);
+    border-radius: 50px;
+    border: solid 1px lightgrey;
+    box-sizing: border-box;
+    padding-left: 13px;
+    padding-top: 5px;
+}
+.wd-search-input{
+    vertical-align: middle;
+    padding-left: 20px;
+    position: absolute;
+    outline: none;
+    border: none;
+}
+::placeholder{
+    color: rgb(110, 118, 125);
+    font-size: medium;
+}
+
+.wd-svg {
+    color: rgb(110, 118, 125);
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+}
+
+.wd-topic-img{
+    float: right;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 85px;
+    height: 85px;
+    border-radius: 20px;
+}
+
+.wd-topic-heading-image{
+    width: 100%;
+    height: 100%;
+}
+
+.wd-topic-topicname, .wd-dec{
+    color: #808080;
+    text-decoration: none;
+}
+
+.wd-topic-heading{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.wd-topic-description{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.wd-topic-tweetcount{
+    color: gray;
+    text-decoration: none;
+}
+
+.wd-topic-time{
+    color: gray;
+}
+
+.fa-cog{
+    float: right;
+    color:#2A9FD6;
+    padding-top: 3px;
+}
+
+.wd-starship{
+    padding:0px;
+}
+
+.carousel-caption{
+    padding:0px;
+    padding-left: 5px;
+    color: white;
+    right: 0px;
+    left: 0px;
+    bottom: 0em;
+    text-align: justify;
+}
+
+.menu-text{
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.wd-dp{
+    margin: 8px;
+    float: left;
+    /* padding-bottom: 50%; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.wd-gray{
+    color: #808080;
+    margin: 0px;
+    display: inline;
+}
+
+.wd-nostyle{
+    list-style-type: none;
+}
+
+.wd-inner{
+    width: -webkit-fill-available;
+    padding: 0px;
+}
+
+.wd-iFirst{
+    margin-right: 10px;
+}
+
+.wd-i{
+    margin-right: 10px;
+    margin-left: 55px;
+    margin-top: 15px;
+}
+
+.wd-searchbar {
+    clear: both;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.wd-searchbar-input{
+    width: 100%;
+    background: rgb(47, 51, 54);
+    border: 0;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: Arial;
+    color: white;
+    padding-left: 12px;
+    margin-right: 26px;
+    height: 30px;
+}
+
+.wd-searchbar-settings {
+    color: rgb(29,161,242);
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+.wd-navigation {
+    margin: 5px 16px 0;
+}
+.wd-navigation-tabs {
+    width: 100%;
+    color: rgb(29,161,242);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-navigation-tabs li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+    padding: 16px;
+}
+
+.wd-navigation-tabs a {
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+}
+
+.wd-selected {
+    border-bottom: solid 4px rgb(29,161,242);
+}
+
+.wd-selected a {
+    color: rgb(29,161,242);
+}
+
+.wd-space {
+    height: 13px;
+    background-color: rgba(47, 51, 54, 0.7);
+    border-top: solid 2px rgb(47,51,54)
+}
+
+.wd-trending h3 {
+    font-size: 13px;
+    font-family: Arial;
+    color: rgb(110, 118, 125);
+}
+
+.wd-content {
+    border-bottom: solid 1px rgb(47, 51, 54);
+    padding-left: 16px;
+}
+
+.wd-content h2 {
+    font-size: 16px;
+    font-family: Arial;
+}
+
+.wd-post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-post h3 {
+    font-size: 13px;
+    font-family: Arial;
+    color: rgb(110, 118, 125);
+}
+
+.wd-post-author {
+    font-size: 13px;
+    font-family: Arial;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-post-icon {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.wd-post-icon-dots {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 10px  16px;
+    float:right;
+    color: rgb(110, 118, 125);
+    text-decoration: none;
+}
+
+.wd-post-time {
+    font-size: 13px;
+    font-family: Arial;
+    color: rgb(110, 118, 125);
+}
+
+.wd-post-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 10px 16px;
+}
+
+.wd-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.wd-icon-img img {
+    width: 60px;
+    height: 60px;
+}
+
+.wd-input {
+    text-indent: 20px;
+}
+
+.wd-search {
+    color:rgb(100,100,100)
+}
+
+.wd-bg-black {
+    background-color: black;
+}
+
+.wd-post-summary {
+    border-style: solid;
+    border-color: #282828;
+    border-width: thin;
+}
