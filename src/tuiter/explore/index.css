@@ -24,3 +24,21 @@
     bottom: 4px;
 }
 
+.wd-dodgerblue {
+    color: dodgerblue;
+}
+
+.wd-textdec {
+    text-decoration: none;
+}
+
+.wd-post {
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+.wd-gray{
+    color: #808080;
+    margin: 0px;
+    display: inline;
+}
