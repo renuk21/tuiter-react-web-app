@@ -3,6 +3,7 @@ import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'
 import TuitStats from "../tuit-stats";
 import {useDispatch} from "react-redux";
 import {deleteTuit} from "../../tuits/tuits-reducer";
+import "../../home/index.css"
 
 const TuitItem = (
     {
@@ -36,8 +37,8 @@ const TuitItem = (
             <div className="col-11">
                 <i className="bi bi-x-lg float-end"
                    onClick={() => deleteTuitHandler(tuit._id)}></i>
-                <b className="text-black">{tuit.userName} </b> <span className="text-muted" style={{"fontSize": "14px"}}> <FontAwesomeIcon style={{"color": "dodgerblue"}} icon={faCircleCheck} /> {tuit.handle} · {tuit.time}</span>
-                <p style={{"fontSize": "15px"}} dangerouslySetInnerHTML={{__html: tuit.tuit}}></p>
+                <b className="text-black">{tuit.userName} </b> <span className="text-muted"> <FontAwesomeIcon className="wd-dodgerblue" icon={faCircleCheck} /> {tuit.handle} · {tuit.time}</span>
+                <p dangerouslySetInnerHTML={{__html: tuit.tuit}}></p>
                 <div className="row pt-2 pb-2">
                     <TuitStats tuit={tuit} />
                 </div>
