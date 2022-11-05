@@ -30,13 +30,15 @@ const todosSlice = createSlice({
         },
         todoDoneToggle(state, action) {
             const todo = state.find((todo) =>
-                todo._id === action.payload)
-            console.log(todo, action.payload);
+                todo._id === action.payload._id)
             todo.done = !todo.done
         },
     }
-
 });
 
-export const {addTodo, deleteTodo, todoDoneToggle} = todosSlice.actions
+export const {
+    addTodo,
+    deleteTodo,
+    todoDoneToggle
+} = todosSlice.actions
 export default todosSlice.reducer

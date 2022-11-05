@@ -21,12 +21,9 @@ const Todos = () => {
     const createTodoClickHandler = () => {
         dispatch(addTodo(todo))
     }
-    const toggleTodoDone = (index) => {
-        dispatch(todoDoneToggle(index))
+    const toggleTodoDone = (todo) => {
+        dispatch(todoDoneToggle(todo))
     }
-
-
-
     return(
         <>
             <h3>Todos</h3>
@@ -54,7 +51,7 @@ const Todos = () => {
                             <input type="checkbox"
                                    checked={todo.done}
                                    onChange={() =>
-                                       toggleTodoDone(index)}
+                                       toggleTodoDone(todo)}
                                    className="me-2"/>
                             {todo.do}
                         </li>
