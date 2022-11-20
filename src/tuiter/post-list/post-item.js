@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRetweet, faHeart, faUpload, faCircleCheck, faLink } from '@fortawesome/free-solid-svg-icons'
+import {faRetweet, faHeart, faUpload, faCircleCheck, faLink, faThumbsDown} from '@fortawesome/free-solid-svg-icons'
 import "../home/index.css"
 
 const PostItem = (
@@ -40,10 +40,11 @@ const PostItem = (
                 </div>
                 <div className="row pt-2 pb-2">
 
-                    <div className="col-3"><a className="wd-gray wd-textdec"  href="#"><i className="bi bi-chat"></i> <span className="wd-post">{post.comments}</span></a></div>
-                    <div className="col-3"><a className="wd-gray wd-textdec"  href="#"><FontAwesomeIcon icon={faRetweet} /> <span className="wd-post">{post.retweets}</span></a></div>
-                    <div className="col-3"><a className="wd-gray wd-textdec"  href="#"><FontAwesomeIcon icon={faHeart} /> <span className="wd-post">{post.likes}</span></a></div>
-                    <div className="col-3"><a className="wd-gray wd-textdec"  href="#"><FontAwesomeIcon icon={faUpload} /> <span className="wd-post"></span></a></div>
+                    <div className="col-2"><a className="wd-gray wd-textdec"  href="#"><i className="bi bi-chat"></i> <span className="wd-post">{post.comments}</span></a></div>
+                    <div className="col-2"><a className="wd-gray wd-textdec"  href="#"><FontAwesomeIcon icon={faRetweet} /> <span className="wd-post">{post.retweets}</span></a></div>
+                    <div className="col-2"><a className="wd-gray wd-textdec"  href="#"><FontAwesomeIcon icon={faHeart} /> <span className="wd-post">{post.likes}</span></a></div>
+                    <div className="col-2"><a className="wd-gray wd-textdec"  href="#"><FontAwesomeIcon icon={faThumbsDown} /> <span className="wd-post">{post.dislikes}</span></a></div>
+                    <div className="col-2"><a className="wd-gray wd-textdec"  href="#"><FontAwesomeIcon icon={faUpload} /> <span className="wd-post"></span></a></div>
 
                 </div>
             </div>
