@@ -13,6 +13,8 @@ export const deleteTuitThunk = createAsyncThunk(
         await service.deleteTuit(tuitId)
         return tuitId
     })
+const date = new Date();
+const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 export const createTuitThunk = createAsyncThunk(
     'tuits/createTuit',
     async (tuit) => {
@@ -21,7 +23,7 @@ export const createTuitThunk = createAsyncThunk(
         tuit.likes = 0;
         tuit.username = "NASA";
         tuit.handle = "@nasa";
-        tuit.time = "Just now";
+        tuit.time = date.getDate().toString() +" "+ monthNames[date.getMonth()] +" "+ date.getFullYear().toString();
         await service.createTuit(tuit);
         return tuit;
     })
