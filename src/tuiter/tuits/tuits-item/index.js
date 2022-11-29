@@ -2,7 +2,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faCircleCheck} from '@fortawesome/free-solid-svg-icons'
 import TuitStats from "../tuit-stats";
 import {useDispatch} from "react-redux";
-import "../../home/index.css"
+import "../../tuiterhome/index.css"
 import {deleteTuitThunk} from "../../../services/tuits-thunks";
 
 const TuitItem = (

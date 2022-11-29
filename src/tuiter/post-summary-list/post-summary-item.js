@@ -1,5 +1,5 @@
 import React from "react";
-import "../home/index.css";
+import "../tuiterhome/index.css";
 const PostSummaryItem = ({post}) => {
     return (
         <li className="list-group-item">
