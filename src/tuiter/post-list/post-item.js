@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faRetweet, faHeart, faUpload, faCircleCheck, faLink, faThumbsDown} from '@fortawesome/free-solid-svg-icons'
-import "../tuiterhome/index.css"
+import "../home/index.css"
 
 const PostItem = (
     {

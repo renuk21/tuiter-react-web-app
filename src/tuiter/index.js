@@ -3,7 +3,7 @@ import ExploreComponent from "./explore";
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
 import {Routes, Route} from "react-router";
-import HomeComponent from "./tuiterhome";
+import HomeComponent from "./home";
 import ProfileComponent from "./profile";
 import EditProfile from "./edit-profile";
 import whoReducer
@@ -27,7 +27,7 @@ function Tuiter() {
                 <div className="col-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6"
                      style={{"position": "relative"}}>
                     <Routes>
-                        <Route path="tuiterhome" element={<HomeComponent/>}/>
+                        <Route path="home" element={<HomeComponent/>}/>
                         <Route path="explore" element={<ExploreComponent/>}/>
                         <Route path="edit-profile" element={<EditProfile/>}/>
                         <Route path="profile" element={<ProfileComponent/>}/>
