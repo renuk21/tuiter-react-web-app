@@ -1,11 +1,11 @@
 import React from "react";
-import ExploreComponent from "../../src/tuiter/explore";
-import NavigationSidebar from "../../src/tuiter/navigation-sidebar";
-import WhoToFollowList from "../../src/tuiter/who-to-follow-list";
+import ExploreComponent from "./explore";
+import NavigationSidebar from "./navigation-sidebar";
+import WhoToFollowList from "./who-to-follow-list";
 import {Routes, Route} from "react-router";
-import HomeComponent from "../../src/tuiter/home";
-import ProfileComponent from "../../src/tuiter/profile";
-import EditProfile from "../../src/tuiter/edit-profile";
+import HomeComponent from "./home";
+import ProfileComponent from "./profile";
+import EditProfile from "./edit-profile";
 import whoReducer
     from "./reducers/who-reducer";
 import tuitsReducer from "./tuits/tuits-reducer";
