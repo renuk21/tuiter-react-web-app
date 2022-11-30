@@ -7,11 +7,11 @@ const NavigationSidebar = (active) => {
                  <a class="list-group-item" href="/">
                    <i class="fab fa-tumblr-square"></i>
                  </a>
-                 <a class="list-group-item ${active==='home'?'active':''}" href="../HomeScreen/index.html">
+                 <a class="list-group-item ${active === 'home' ? 'active' : ''}" href="../HomeScreen/index.html">
                    <i class="fa fa-home"></i>
                    <span> Home</span>
                  </a>
-                 <a class="list-group-item ${active==='explore'?'active':''}" href="../explore/index.html">
+                 <a class="list-group-item ${active === 'explore' ? 'active' : ''}" href="../ExploreScreen/index.html">
                    <i class="fa fa-hashtag"></i>
                    <span> Explore</span>
                  </a>
